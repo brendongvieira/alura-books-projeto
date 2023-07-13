@@ -10,7 +10,7 @@ function exibirLivrosNaTela(listaDeLivros) {
           <div class="livro">
         <img class="${disponibilidade}" src="${livro.imagem}" alt="${livro.alt}"/>
         <h2 class="livro__titulo">
-          ${livro.titulo}
+          ${livro.titulo} h2
         </h2>
         <p class="livro__descricao">${livro.autor}</p></p>
         <p class="livro__preco" id="preco">R$${livro.preco.toFixed(2)}</p>
